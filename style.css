@@ -328,11 +328,15 @@ nav > a {
   }
   .faq-section{
     height: 500px;
+    position: relative;
   }
   .faq-section{
     flex-direction: column;
   }
   .faq-image img{
-    width: 400px;
+    width: 350px;
+    position: absolute;
+    right: 0px;
+    top: 62%;
   }
 }
