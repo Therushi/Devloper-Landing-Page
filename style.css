@@ -226,3 +226,113 @@ nav > a {
 .footer-logo {
   padding: 10px 20px;
 }
+@media screen and (max-width: 678px) {
+  .nav-item{
+    display: none;
+  }
+  .header-image{
+    width: 350px;
+    top: 65px;
+  }
+  header{
+    padding: 10px;
+    height: 700px;
+  }
+  .logo{
+    width: 100px;
+    position: absolute;
+    top: 10px;
+  }
+  nav{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .header-text h2{
+    font-size: 35px;
+    width: 300px;
+    font-weight: 700;
+  }
+  .header-text p{
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .header-text{
+    margin-top: 330px;
+  }
+  .companies a{
+    font-size: 15px;
+    padding: 5px 10px;
+
+  }
+  .companies{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   }
+  
+  .cards{
+    flex-direction: column;
+  }
+  .blog-cards{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .blog-image img{
+    width: 150px;
+  }
+  .blog-content{
+    padding: 10px;
+    height: 173px;
+    width: 300px;
+  }
+  .blog-content h3{
+    font-size: 12px;
+  }
+  .blog-content small{
+    font-size: 9px;
+  }
+  .blog-bottom{
+    display: none;
+  }
+  .blog-author{
+    display: none;
+  }
+  .download-section{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .download-email{
+    width: 330px;
+    
+  }
+  .download-email form button{
+    font-size: 12px;
+    padding: 5px 10px;
+ 
+  }
+  .download-email form input{
+    font-size: 9px;
+    width: 130px;
+    margin-left: 0px;
+  }
+  .footer-section{
+    flex-direction: column;
+    padding: 10px;
+  }
+  .list{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .faq-content{
+    padding: 30px;
+  }
+  .faq-section{
+    height: 500px;
+  }
+  .faq-section{
+    flex-direction: column;
+  }
+  .faq-image img{
+    width: 400px;
+  }
+}
